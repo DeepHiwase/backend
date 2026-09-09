@@ -1,0 +1,219 @@
+- [] Backend Engineering
+  - CRUD applications
+    - Fault Tolerant
+    - Scalable
+    - Reliable
+    - Maintanable
+    - Efficient
+- [] High Level Understanding
+  - [] how request flow from network hops, to aws firewall, to ec2
+- [] HTTP Protocol
+  - [] Cors
+  - [] Http Methods
+  - [] Http versions
+  - [] Http Vs Https
+  - [] Http 1.1 Vs Http 2.0 Vs Http 3.0
+  - [] Http Caching
+    - [] etag
+    - [] max-age headers
+  - [] raw message looks like
+  - [] Http Compression
+    - [] gzip
+    - [] dfalte
+    - [] br
+- [] Routing
+  - [] Static Routes
+  - [] Dynamic Routes
+  - [] Nested Routes
+  - [] Hyerarchical Routes
+  - [] Catch-All Routes
+  - [] Wildcard Routes
+  - [] Regex Routes
+  - [] Versioning Routes
+    - [] Types of versioning
+  - [] Deprecating Routes
+  - [] Grouping Routes and its config - permissions and shared middlewares
+  - [] securing routes
+  - [] optimizing routes
+- [] Serialisation & Deserialisation
+  - [] different formats of serialisation & deserialisation
+    - [] text-based format
+      - [] JOSN
+      - [] XML
+    - [] binary-based format
+      - [] Protobuff
+    - [] dealing with date formats and timezones issues
+    - [] dealing with null values
+    - [] implement custom serialization before serialization into json
+    - [] error handling in serialization and deserialization
+      - [] invalid data
+      - [] unknown errors
+      - [] data conversion errors
+    - [] dealing with security attacks like injection different attacks and validation before deserialization, validating json schemas before processing data
+    - [] performance aspect - reducing data by compressing and elemating unnecessary fields
+- [] Authentication & Authorization
+  - [] different types of authentications
+    - [] stateful
+    - [] stateless
+    - [] basic
+    - [] bearer token
+    - [] session
+    - [] jwt
+    - [] cookie
+    - [] oauth
+    - [] protocol
+    - [] openID connect
+    - [] Api keys
+    - [] Multi Factor Auth
+    - [] salting
+    - [] hashing
+    - [] diff cryptographic technique
+  - [] PayBAC
+  - [] RBAC
+  - [] ReBAC
+  - [] Rate limitting
+  - [] Timeing Attacks
+- [] Validation & Transformation
+  - [] Syntaxting
+  - [] Symantic
+  - [] Type
+  - [] Client-side
+  - [] Server-side
+  - [] Failing Fast
+  - [] Normalizations
+  - [] Sinatization
+  - [] Complex Validation Logic
+  - [] Conditional Validation
+  - [] Handling Gracefully the failed trnasformations
+- [] Middlewares
+  - [] Prerequest Middleware
+  - [] Postresponse Middleware
+  - [] Security Middleware
+  - [] Cors Middleware
+  - [] Helmet Middleware
+  - [] Rate Limit Middleware
+  - [] Logging Middleware
+  - [] Authentication Middleware
+  - [] Authorization Middleware
+  - [] Protect Route Middleware
+  - [] Error Handling Middleware
+  - [] Compresssion Middleware
+  - [] Data passing Middleware
+  - [] File uploads Middleware
+  - [] Multipart form for file uploads Middleware
+- [] Request Context
+  - [] Preflight - request
+  - [] Headers
+    - [] request headers
+    - [] generals headers
+    - [] representational headers
+    - [] security headers
+    - [] http codes
+    - [] Path
+    - [] Params
+      - [] Query Params
+      - [] Path Params
+    - [] Timouts
+      - [] Request Timeouts
+      - [] Custom Timeouts
+      - [] Cancellation Signals
+- [] Handlers, Controllers and Services
+  - [] MVC
+- [] CRUD deepdive
+  - [] POST
+  - [] GET
+  - [] DELETE
+  - [] PATCH
+  - [] DELETE
+  - [] Pagination
+  - [] Search
+  - [] Sorting
+  - [] Filtering
+  - [] Limiting Payload
+- [] RESTful architecture and best practices
+  - [] URI Versioning
+  - [] Header Versioning
+  - [] Query String
+  - [] Media Type
+  - [] Design API with OpenAPI spec
+  - [] Capturing Exceptions and Providing Meaningfull messages
+- [] Databases
+  - [] Relational and Non-Relational
+  - [] SQL and NoSQL
+  - [] ACID and CAP Theorem
+  - [] JOINS
+  - [] SCHEMA Design
+  - [] VIEWS
+  - [] Triggers
+  - [] Indexing
+  - [] Keys
+  - [] Catching
+  - [] Connection Pooling
+  - [] Query Optimiziation
+  - [] Transaction and Concurrency
+  - [] ORMs
+  - [] Migrations
+- [] Business Logic Layer (BLL)
+- [] Caching
+  - [] In-Memory Caching
+  - [] DB Caching
+  - [] Browser Caching
+  - [] Client-side Caching
+  - [] Server-side Caching
+  - [] Types of caching Startegies
+    - [] SSIed
+    - [] Write through
+    - [] Write behind
+    - [] Write back
+    - [] Read through
+  - [] LRU
+  - [] LFU
+  - [] FIFO
+  - [] TTL
+- [] Transactional Emails
+- [] Task queuing and Scheduling
+- [] Elasticsearch
+- [] Error Handling
+- [] Config Management
+- [] Logging, Monitoring and Observability
+- [] Graceful Shutdown
+- [] Security
+  - [] avoiding csrf, xss, mitmaudit logging
+- [] Scaling and Performance
+- [] Concurrency and Parallelism
+- [] Object Storage and Large Files
+- [] Real-time backend systems
+- [] Testing and Code Quality
+- [] 12 factor app
+- [] OpenAPI standards / Documentation
+- [] Webhooks
+- [] DevOps for Backend Engineers
+- [] SSL, TLS certificate
+- [] Proxy
+  - [] Forword Proxy
+  - [] Reverse Proxy
+
+- [] Node.js
+  - [] Core Concepts and Code base, installation
+  - [] Components
+    - [] Event Loop
+    - [] libuv
+  - [] Event Emmiters
+  - [] File Systems
+  - [] Streams
+  - [] Buffers
+  - [] Networking
+  - [] HTTP
+  - [] Unix
+  - [] Compression
+  - [] Multi-threading
+  - [] Cryptography
+  - [] Security
+
+- [] MySQL
+- [] MongoDB
+
+- [] Firebase
+- [] Supabase
+- [] Node.js
+- [] Spring Boot
