@@ -1,0 +1,123 @@
+- [] SQL
+- [] Database & Types
+- [] SQL Commands
+- [] Environment Setup
+  - [] Database Install
+  - [] GUI connect
+  - [] CLI Connect
+  - [] Datasets folder to store
+  - [] Backups to store
+- [] Query Data
+  - [] SELECT
+  - [] FROM
+  - [] WHERE
+  - [] ORDER BY
+  - [] GROUP BY
+  - [] HAVING
+  - [] DISTINCT
+  - [] TOP / LIMIT
+  - [] QUERY Order & Execution Order
+- [] DDL
+  - [] CREATE
+  - [] ALTER
+  - [] DROP
+  - [] TRUNCATE
+- [] DML
+  - [] INSERT
+  - [] UPDATE
+  - [] DELETE
+- [] Filtering Data
+  - [] Comparision Operators - =, !=, <>, <, >, <=, >=
+  - [] Logical Operators
+    - [] AND
+    - [] OR
+    - [] NOT
+  - [] BETWEEN
+  - [] IN
+  - [] LIKE
+- [] Combining Data
+  - [] JOINS
+    - [] Basic Joins
+      - [] INNER JOIN
+      - [] LEFT JOIN
+      - [] RIGHT JOIN
+      - [] FULL JOIN
+    - [] Advance Joins
+      - [] LEFT Anti Join
+      - [] RIGHT Anti Join
+      - [] Full Anti Join
+      - [] CROSS Join
+    - How to Choose Right Join
+    - How to Join Multiple Tables
+  - [] SET Operators
+    - [] UNION
+    - [] UNION ALL
+    - [] EXCEPT
+    - [] INTERSECT
+- [] Row-Level Functions
+  - [] String Functions
+    - [] CONCAT
+    - [] LOWER/UPPER
+    - [] TRIM
+    - [] REPLACE
+    - [] LEN
+    - [] LEFT
+    - [] RIGHT
+    - [] SUBSTRING
+  - [] Numeric Functions
+    - [] ROUND
+    - [] ABS
+  - [] Date & Time Functions
+  - [] Null Functions
+    - [] ISNULL
+    - [] NULLIF
+    - [] COALESCE
+    - [] CASE WHEN
+    - [] IS NULL / IS NOT NULL
+  - [] Case Statement
+- [] Aggregation & Analytical Functions
+  - [] Aggregate Functions
+    - [] COUNT
+    - [] SUM
+    - [] AVG
+    - [] MIN
+    - [] MAX
+  - [] Window Basics
+  - [] Window Aggegrate Functions
+    - [] COUNT
+    - [] SUM
+    - [] AVG
+    - [] MIN
+    - [] MAX
+  - [] Window Ranking Functions
+    - [] ROW_NUMBER
+    - [] RANK
+    - [] DENSE_RANK
+    - [] NTILE
+    - [] CUME_DISTC
+  - [] Window Value Functions
+    - [] LAG
+    - [] LEAD
+    - [] FIRST_VALUE
+    - [] LAST_VALUE
+- [] Advanced SQL Techniques
+  - [] Subqueries
+    - [] Subqueries Basics
+      - [] MAX
+      - [] MIN
+    - [] Subqueries Vs Joins
+      - [] MAX
+      - [] MIN
+  - [] CTE
+    - [] CTE Basics
+    - [] Non-Recursive
+    - [] Recursive
+    - [] CTE Vs Subqueries
+  - [] Views
+  - [] CTAS Tables & Temp Tables
+  - [] Stored Procedure
+  - [] Triggers
+- [] Performance Optimization
+  - [] Indexes
+  - [] Partitions
+  - [] Performance Tips
