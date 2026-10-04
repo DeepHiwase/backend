@@ -40,3 +40,34 @@ $ CREATE DATABASE "Test";
 $ \c test
 $ \c <db_to_change>
 $ \! CLS -> to clear screen
+
+# Schema
+
+a logical container inside db used to organize tables and other db objects
+
+- by default - public schema
+  in amazon db
+- schema used to organize the data and table related to each other
+  - ex: users -> make user schema, payment -> payment schema, seller -> seller schema
+
+# Table
+
+store data in rows and column
+
+rows -> records
+columns -> keys - fields
+cell with values -> values
+
+$ CREATE SCHEMA <schema_name>;
+$ DROP SCHEMA <schema_name>;
+
+# CRUD
+
+- Create - INSERT
+- Read - SELECT
+- Update - UPDATE - SET WHERE
+- Delete - DELETE
+
+$ CREATE TABLE users (first_name TEXT, last_name TEXT, phone_number INTEGER);
+$ INSERT INTO users(first_name, last_name, phone_number) VALUES ('Deep', 'Hiwase', 100);
+$ SELECT * FROM users;

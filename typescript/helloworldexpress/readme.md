@@ -1,0 +1,1 @@
+make the compiler reject non-erasable syntax (such as enums, namespaces, and parameter properties) that Node cannot strip - in tsconfig.json - "erasableSyntaxOnly": true
