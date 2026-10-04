@@ -7,6 +7,11 @@
   3. Relational DBMS (RDBMS) - Tables - Rows & Columns
   4. NoSQL DBMS
 
+- MySQL
+- PostgreSQL
+- MongoDB
+- MSSQL
+
 Language - SQL - to talk
 SQL = Structured Query Language
 MQL = Mongodb Query Language
@@ -70,4 +75,4 @@ $ DROP SCHEMA <schema_name>;
 
 $ CREATE TABLE users (first_name TEXT, last_name TEXT, phone_number INTEGER);
 $ INSERT INTO users(first_name, last_name, phone_number) VALUES ('Deep', 'Hiwase', 100);
-$ SELECT * FROM users;
+$ SELECT \* FROM users;

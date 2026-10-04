@@ -13,6 +13,7 @@ Programming Language
   - rust
   - python
   - zig
+  - php
 
 compilation - convert a language to computer understandable lang
 
