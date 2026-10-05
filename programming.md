@@ -77,3 +77,13 @@ setting up tasks in vscode
   ]
 }
 ```
+
+$ which gcc || echo "Not installed"
+/usr/bin/gcc
+
+to compile file with compiler
+$ g++ hello.cpp -o hello
+$ g++ <filename> -o <output_compile_file_name>
+$ ./hello <- when enter it runs the exe file
+
+how data is stored?

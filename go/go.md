@@ -5,3 +5,5 @@ every go program - made up of packages
 - Programs start running in package main
 - "factored" import statement - import ()
 - exported if it begins with a capital letter
+
+- to run go -> $ go run <filename/fath with .go>
